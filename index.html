@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+    <!-- <link
+      rel="shortcut icon"
+      href="./pages/Dashboard/assets/favicon.svg"
+      type="image/x-icon"
+    /> -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Finance Tracker</title>
+  </head>
+  <body>
+
+
+
+    
+    <header class="container">
+      <nav>
+        <div class="logo">
+        
+          <p>WalletWizard</p>
+        </div>
+
+        <div class="buttons">
+          <a href="#contact" class="button contact">Register</a>
+          <a href="./pages/Dashboard/dashboard.html" class="button get-started"
+            >Login</a
+          >
+        </div>
+        
+        <div class="mobile-menu">
+          <div class="open-close">
+            <img
+              src="./images/menu.svg"
+              alt="Abrir"
+              class="open"
+              onclick="Menu.open()"
+            />
+            <img
+              src="./images/close.svg"
+              alt="fechar"
+              class="close"
+              onclick="Menu.close()"
+            />
+
+            <div class="logo-menu">
+              <img src="./images/logo.svg" alt="" />
+              <p>Finance Tracker</p>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="menu-open">
+              <div class="menu-items">
+                <ul>
+                  <li><a href="./index.html" onclick="Menu.close()">Home</a></li>
+                  <li><a href="#contact" onclick="Menu.close()">Contact</a></li>
+                  <li>
+                    <a
+                      href="./pages/Dashboard/dashboard.html"
+                      onclick="Menu.close()"
+                      >Get Started</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div class="header-content-left">
+          <h1>Your Financial Companion: Empowering you to take control.</h1>
+          <p>
+            A cutting-edge platform designed to simplify the tracking of your financial inflows and outflows with utmost convenience.
+          </p>
+          <a href="./pages/Dashboard/dashboard.html" class="button get-started"
+            >Register Here</a
+          >
+        </div>
+
+        <div class="header-content-right">
+          <img src="./images/fin5.jpg" alt="Team image" class="padded-image" style="padding-left: 200px;" />
+
+        </div>
+      </div>
+    </header>
+
+
+    
+    <!--END OF HEADER-------------------- -->
+
+    <main id="preview">
+      <section class="app-preview container">
+        <div class="app-preview-left">
+          <img src="./images/dash.jpg" alt="App image" style="width: 700px; height: 380px;" />
+
+        </div>
+
+        <div class="app-preview-right">
+          <h2 class="section-title">Smart Choices. Bigger Savings.</h2>
+          <p class="section-paragraph">
+            Leave behind the complexities of spreadsheets and enter a world of simplicity with customizable budgets. Easily add and update your incomes and expenses, revolutionizing your financial tracking.
+          </p>
+          <div class="get-started-line">
+            <a href="./pages/Dashboard/dashboard.html" class="get-started"
+              >Get Started</a
+            >
+            <div class="green-line"></div>
+          </div>
+        </div>
+      </section>
+      <!--END OF app-preview container SECTION-------------------- -->
+
+      <section class="track-your-spending container" id="track">
+        <div class="track-your-spending-left">
+          <h2 class="section-title">Spend Smart. Track Well.</h2>
+          <p class="section-paragraph">
+            Make progress towards your goals using personalized budgets, diligently tracking your daily incomes and expenses, completely free of charge.
+          </p>
+          <div class="get-started-line">
+            <a href="./pages/Dashboard/dashboard.html" class="get-started"
+              >Get Started</a
+            >
+            <div class="green-line"></div>
+          </div>
+        </div>
+
+        <div class="track-your-spending-right">
+          <img src="./images/finnnnnn.jpg" alt="image" />
+        </div>
+      </section>
+      <!--END OF track-your-spending SECTION-------------------- -->
+<!-- 
+      <section id="contact" class="get-in-touch container">
+        <div class="get-in-touch-content">
+          <div class="get-in-touch-left">
+            <h2 class="section-title">Get in touch with us.</h2>
+          </div>
+          <div class="get-in-touch-right">
+            <a
+              href="https://www.linkedin.com/in/vinicius-rodrigues-5897831b8/"
+              class="button get-started"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </section> -->
+      <!--END OF get-in-touch SECTION-------------------- -->
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <!-- <div class="footer-card">
+          <h3>Our mission</h3>
+          <a href="./index.html">Home</a>
+          <a href="#preview">Preview</a>
+          <a href="#track">Track spending</a>
+          <a href="#contact">Contact</a>
+        </div> -->
+        <div class="footer-card">
+          <!-- <h3>About</h3>
+          <a href="https://github.com/viniscode" target="_blank">viniscode</a>
+          <a href="https://github.com/viniscode/Monances" target="_blank"
+            >Source code</a
+          > -->
+        </div>
+        <!-- <div class="footer-card">
+          <h3>Quick Links</h3>
+          <a href="./index.html">Home</a>
+          <a href="#preview">Preview</a>
+          <a href="#track">Track spending</a>
+          <a href="#contact">Contact</a>
+        </div> -->
+
+        <!-- <div class="footer-card">
+          <h3>Get in touch</h3>
+          <div class="social">
+            <a
+              href="https://www.linkedin.com/in/vinicius-rodrigues-5897831b8/"
+              target="_blank"
+              id="linkedin"
+              ><i data-feather="linkedin"></i
+            ></a>
+            <a href="https://github.com/viniscode" target="_blank"
+              ><i data-feather="github" id="git"></i
+            ></a>
+            <a
+              href="https://instagram.com/rodriguesvini.dev"
+              target="_blank"
+              id="insta"
+              ><i data-feather="instagram"></i
+            ></a>
+          </div>
+        </div> -->
+      </div>
+    </footer>
+    <!--END OF FOOTER-------------------- -->
+
+ 
+
+    <!--LOADING SCREEN-->
+    <div class="loader-overlay">
+      <div class="loader"></div>  
+    </div>
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scrollReveal.js"></script>
+    <script src="home.js"></script>
+    <script>
+      feather.replace();
+    </script>
+
+  <script>
+    // ==== LOADING SCREEN
+    let spinner = document.querySelector('.loader-overlay');
+
+    window.addEventListener('load', () => {
+      spinner.parentElement.removeChild(spinner);
+    })
+  </script>
+  </body>
+
+
+  
+</html>
